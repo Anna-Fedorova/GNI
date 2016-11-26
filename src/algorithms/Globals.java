@@ -1,5 +1,6 @@
 package algorithms;
 
+import algorithms.structures.CortezianCoordinates;
 import static java.lang.Math.PI;
 
 /**
@@ -32,4 +33,8 @@ public class Globals {
 
   // Final time
   public static double xn = numorbs * 2 * PI;
+
+  // todo: what is the meaning of this variable?
+  public CortezianCoordinates FofYi = new CortezianCoordinates(2);
+  public CortezianCoordinates Yimbet = new CortezianCoordinates(2);
 }
